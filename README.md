@@ -49,6 +49,12 @@ Développer une mini-application web de gestion de tâches (ToDo List) en fullst
 
 - Node.js + npm
 - Python 3 + FastAPI
+  
+### Démarrer le frontend
+cd frontend-app
+npm install
+npm run dev
+
 
 ### Démarrer le backend
 
@@ -60,7 +66,3 @@ python -m venv venv
 pip install -r requirements.txt (ou installer manuellement fastapi uvicorn pydantic)
 uvicorn main:app --reload
 
-### Démarrer le backend
-cd frontend-app
-npm install
-npm run dev
