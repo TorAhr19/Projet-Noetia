@@ -59,3 +59,8 @@ python -m venv venv
 .\venv\Scripts\Activate
 pip install -r requirements.txt (ou installer manuellement fastapi uvicorn pydantic)
 uvicorn main:app --reload
+
+### Démarrer le backend
+cd frontend-app
+npm install
+npm run dev
