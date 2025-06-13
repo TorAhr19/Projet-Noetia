@@ -65,4 +65,16 @@ python -m venv venv
 .\venv\Scripts\Activate
 pip install -r requirements.txt (ou installer manuellement fastapi uvicorn pydantic)
 uvicorn main:app --reload
+```
+✨ Améliorations possibles
+Édition de tâche (PUT)
 
+Sauvegarde en base de données (ex: SQLite)
+
+Amélioration du design
+
+Tests unitaires
+
+
+Accès Front : http://localhost:5173
+Accès API : http://127.0.0.1:8000/docs
